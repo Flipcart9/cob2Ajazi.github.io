@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro+Titling&family=Fugaz+One&family=Laila:wght@400;500;600&family=Playfair:ital,wght@0,800;1,300;1,600&family=Roboto:wght@100;300;400;500;700&family=Rubik+Mono+One&family=Secular+One&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div id="bc">
+        <iframe width="3000vw" height="2000vh" src="https://flipcart9.github.io/bg_body.github.io/" frameborder="0"></iframe>
+    </div>
+    <audio class="audio" src="img/Alffy Rev   Till We Meet Again ft Little Linka.mp3"></audio>
+    <div class="container">
+        <div class="center" id="center">
+            <input type="checkbox" name="" id="click">
+            <label for="click" class="click-here">Click me</label>
+            <div class="content" id="popup">
+                <img src="img/welcome.gif">
+                <h1>Welcome!</h1>
+                <p>untuk masuk kamu harus mengisi kata kunci yang telah kami berikan</p>
+                <input type="password" id="passwordInput">
+                <label for="psw" class="submit" onclick="validatePassword()">Submit</label>
+            </div>
+        </div>
+        <div class="main">
+            <div class="comment-box notif1 kelip" id="notif1" onclick="balas()">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="img">
+                            <img src="img/profile.jpg">
+                        </div>
+                        <div class="nama nama1">
+                            <strong>
+                                xnys.gbt
+                            </strong>
+                            <span>@nala2345</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="text">
+                    <p>Hai, kamu teman yang mana nih....</p>
+                </div>
+            </div>
+            <div class="comment-box notif2" id="notif2">
+                <div class="box-top">
+                    <div class="profile">
+                        <div class="img">
+                            <img src="img/profile.jpg">
+                        </div>
+                        <div class="nama nama2">
+                            <strong>
+                                xnys.gbt
+                            </strong>
+                            <span>@nala2345</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p class="isi"></p>
+                </div>
+            </div>
+        </div>
+        <div class="btn-mulai" onclick="notif1()" id="click">
+            <p class="hilang1">Buka komennya</p>
+        </div>
+    </div>
+    <div class="button" id="btn">
+        <a href="#"><span>BUTTON</span></a>
+    </div>
+    <section id="wrapper" class="wrapper">
+        <div class="wrapper-container">
+            <div class="book">
+                <input type="checkbox" id="c1">
+                <input type="checkbox" id="c2">
+                <input type="checkbox" id="c3">
+                <input type="checkbox" id="c4">
+                <input type="checkbox" id="c5">
+                <input type="checkbox" id="c6">
+                <input type="checkbox" id="c7">
+                <input type="checkbox" id="c8">
+                <input type="checkbox" id="c9">
+                <input type="checkbox" id="c10">
+                <input type="checkbox" id="c11">
+                <input type="checkbox" id="c12">
+                <input type="checkbox" id="c13">
+                <input type="checkbox" id="c14">
+                <input type="checkbox" id="c15">
+                <input type="checkbox" id="c16">
+                <input type="checkbox" id="c17">
+                <input type="checkbox" id="c18">
+                <input type="checkbox" id="c19">
+                <input type="checkbox" id="c20">
+                <input type="checkbox" id="c21">
+                <input type="checkbox" id="c22">
+                <input type="checkbox" id="c23">
+                <input type="checkbox" id="c24">
+                <input type="checkbox" id="c25">
+                <input type="checkbox" id="c26">
+                <input type="checkbox" id="c27">
+                <input type="checkbox" id="c28">
+                <input type="checkbox" id="c29">
+                <input type="checkbox" id="c30">
+                <input type="checkbox" id="c31">
+                <input type="checkbox" id="c32">
+                <input type="checkbox" id="c33">
+                <input type="checkbox" id="c34">
+                <input type="checkbox" id="c35">
+                <input type="checkbox" id="c36">
+                <input type="checkbox" id="c37">
+                <input type="checkbox" id="c38">
+                <input type="checkbox" id="c39">
+                <input type="checkbox" id="c40">
+
+                <div id="cover"></div>
+                <div class="flip-book">
+
+                    <div class="flip" id="p1">
+                        <div class="back">
+                            <img src="img/Sendiri/1.jpg" alt="">
+                            <label class="back-btn" for="c1">Back</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/depan1.png" alt="">
+                            <label class="next-btn" for="c1"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p2">
+                        <div class="back">
+                            <img src="img/Sendiri/2.jpg" alt="">
+                            <label class="back-btn" for="c2">Back</label>
+                        </div>
+                        <div class="front">
+                            <h2>DIEGO CORRADEO</h2>
+                            <p>Memiliki arti tersendiri. Diego Corradeo berasal dari bahasa italia. Diego artinya Mengajarkan sesuatu hal yang baik kepada manusia lain. sedangkan Corradeo berarti memiliki sikap bijaksana, menawan, pintar, dan rupawan. </p>
+                            <label class="next-btn" for="c2"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p3">
+                        <div class="back">
+                            <img src="img/Sendiri/03.jpg" alt="">
+                            <label class="back-btn" for="c3">Back</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/3.jpg" alt="">
+                            <label class="next-btn" for="c3"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p4">
+                        <div class="back">
+                            <img src="img/Sendiri/04.jpg" alt="">
+                            <label class="back-btn" for="c4">Back</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/4.jpg" alt="">
+                            <label class="next-btn" for="c4"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p5">
+                        <div class="back">
+                            <img src="img/Sendiri/05.jpg" alt="">
+                            <label class="back-btn" for="c5">Back</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/5.jpg" alt="">
+                            <label class="next-btn" for="c5"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p6">
+                        <div class="back">
+                            <img src="img/Sendiri/06.jpg" alt="">
+                            <label class="back-btn" for="c6">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/6.jpg" alt="">
+                            <label class="next-btn" for="c6"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p7">
+                        <div class="back">
+                            <img src="img/Sendiri/07.jpg" alt="">
+                            <label class="back-btn" for="c7">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/7.jpg" alt="">
+                            <label class="next-btn" for="c7"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p8">
+                        <div class="back">
+                            <img src="img/Sendiri/08.jpg" alt="">
+                            <label class="back-btn" for="c8">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/010.jpg" alt="">
+                            <label class="next-btn" for="c8"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p9">
+                        <div class="back">
+                            <img src="img/Sendiri/09.jpg" alt="">
+                            <label class="back-btn" for="c9">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/9.jpg" alt="">
+                            <label class="next-btn" for="c9"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p10">
+                        <div class="back">
+                            <img src="img/Sendiri/11.jpg" alt="">
+                            <label class="back-btn" for="c10">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/10.jpg" alt="">
+                            <label class="next-btn" for="c10"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p11">
+                        <div class="back">
+                            <img src="img/Sendiri/011.jpg" alt="">
+                            <label class="back-btn" for="c11">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/12.jpg" alt="">
+                            <label class="next-btn" for="c11"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p12">
+                        <div class="back">
+                            <img src="img/Sendiri/012.jpg" alt="">
+                            <label class="back-btn" for="c12">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/013.jpg" alt="">
+                            <label class="next-btn" for="c12"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p13">
+                        <div class="back">
+                            <img src="img/Sendiri/14 (2).jpg" alt="">
+                            <label class="back-btn" for="c13">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/13 (1).jpg" alt="">
+                            <label class="next-btn" for="c13"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p14">
+                        <div class="back">
+                            <img src="img/Sendiri/15 (2).jpg" alt="">
+                            <label class="back-btn" for="c14">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/14 (1).jpg" alt="">
+                            <label class="next-btn" for="c14"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p15">
+                        <div class="back">
+                            <img src="img/Sendiri/15 (1).jpg" alt="">
+                            <label class="back-btn" for="c15">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/16 (1).jpg" alt="">
+                            <label class="next-btn" for="c15"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p16">
+                        <div class="back">
+                            <img src="img/Sendiri/16 (2).jpg" alt="">
+                            <label class="back-btn" for="c16">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/17.jpg" alt="">
+                            <label class="next-btn" for="c16"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p17">
+                        <div class="back">
+                            <img src="img/Sendiri/18 (1).jpg" alt="">
+                            <label class="back-btn" for="c17">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/18 (2).jpg" alt="">
+                            <label class="next-btn" for="c17"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p18">
+                        <div class="back">
+                            <img src="img/Sendiri/19 (1).jpg" alt="">
+                            <label class="back-btn" for="c18">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/19 (2).jpg" alt="">
+                            <label class="next-btn" for="c18"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p19">
+                        <div class="back">
+                            <img src="img/Sendiri/20 (1).jpg" alt="">
+                            <label class="back-btn" for="c19">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/21 (2).jpg" alt="">
+                            <label class="next-btn" for="c19"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p20">
+                        <div class="back">
+                            <img src="img/Sendiri/20 (2).jpg" alt="">
+                            <label class="back-btn" for="c20">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/21 (1).jpg" alt="">
+                            <label class="next-btn" for="c20"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p21">
+                        <div class="back">
+                            <img src="img/Sendiri/22 (2).jpg" alt="">
+                            <label class="back-btn" for="c21">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/22 (1).jpg" alt="">
+                            <label class="next-btn" for="c21"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p22">
+                        <div class="back">
+                            <img src="img/Sendiri/23 (1).jpg" alt="">
+                            <label class="back-btn" for="c22">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/23 (2).jpg" alt="">
+                            <label class="next-btn" for="c22"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p23">
+                        <div class="back">
+                            <img src="img/Sendiri/24 (1).jpg" alt="">
+                            <label class="back-btn" for="c23">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/24 (2).jpg" alt="">
+                            <label class="next-btn" for="c23"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p24">
+                        <div class="back">
+                            <img src="img/Sendiri/26 (1).jpg" alt="">
+                            <label class="back-btn" for="c24">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/26 (2).jpg" alt="">
+                            <label class="next-btn" for="c24"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p25">
+                        <div class="back">
+                            <img src="img/Sendiri/27 (1).jpg" alt="">
+                            <label class="back-btn" for="c25">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/27 (2).jpg" alt="">
+                            <label class="next-btn" for="c25"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p26">
+                        <div class="back">
+                            <img src="img/Sendiri/27 (3).jpg" alt="">
+                            <label class="back-btn" for="c26">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/27 (4).jpg" alt="">
+                            <label class="next-btn" for="c26"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p27">
+                        <div class="back">
+                            <img src="img/Sendiri/28 (1).jpg" alt="">
+                            <label class="back-btn" for="c27">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/28 (2).jpg" alt="">
+                            <label class="next-btn" for="c27"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p28">
+                        <div class="back">
+                            <img src="img/Sendiri/29 (1).jpg" alt="">
+                            <label class="back-btn" for="c28">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/29 (2).jpg" alt="">
+                            <label class="next-btn" for="c28"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p29">
+                        <div class="back">
+                            <img src="img/Sendiri/30 (2).jpg" alt="">
+                            <label class="back-btn" for="c29">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/30 (1).jpg" alt="">
+                            <label class="next-btn" for="c29"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p30">
+                        <div class="back">
+                            <img src="img/Sendiri/31 (1).jpg" alt="">
+                            <label class="back-btn" for="c30">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/31 (2).jpg" alt="">
+                            <label class="next-btn" for="c30"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p31">
+                        <div class="back">
+                            <img src="img/Sendiri/32 (1).jpg" alt="">
+                            <label class="back-btn" for="c31">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/32 (2).jpg" alt="">
+                            <label class="next-btn" for="c31"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p32">
+                        <div class="back">
+                            <img src="img/Sendiri/33 (1).jpg" alt="">
+                            <label class="back-btn" for="c32">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/33 (2).jpg" alt="">
+                            <label class="next-btn" for="c32"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p33">
+                        <div class="back">
+                            <img src="img/Sendiri/34 (1).jpg" alt="">
+                            <label class="back-btn" for="c33">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/34 (2).jpg" alt="">
+                            <label class="next-btn" for="c33"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p34">
+                        <div class="back">
+                            <img src="img/Sendiri/35 (1).jpg" alt="">
+                            <label class="back-btn" for="c34">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/35 (2).jpg" alt="">
+                            <label class="next-btn" for="c34"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p35">
+                        <div class="back">
+                            <img src="img/Sendiri/36 (1).jpg" alt="">
+                            <label class="back-btn" for="c35">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/36 (2).jpg" alt="">
+                            <label class="next-btn" for="c35"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p36">
+                        <div class="back">
+                            <img src="img/Sendiri/37 (1).jpg" alt="">
+                            <label class="back-btn" for="c36">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/37 (2).jpg" alt="">
+                            <label class="next-btn" for="c36"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p37">
+                        <div class="back">
+                            <img src="img/Sendiri/38(2).jpg" alt="">
+                            <label class="back-btn" for="c37">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/38.jpg" alt="">
+                            <label class="next-btn" for="c37"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p38">
+                        <div class="back">
+                            <img src="img/Sendiri/39 (1).jpg" alt="">
+                            <label class="back-btn" for="c38">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/39 (2).jpg" alt="">
+                            <label class="next-btn" for="c38"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p39">
+                        <div class="back">
+                            <img src="img/Sendiri/40 (1).jpg" alt="">
+                            <label class="back-btn" for="c39">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/Sendiri/40 (2).jpg" alt="">
+                            <label class="next-btn" for="c39"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p40">
+                        <div class="back">
+                            <img src="img/b3.png">
+                            <label class="back-btn" for="c40">B</label>
+                        </div>
+                        <div class="front">
+                            <h2>Thank You for Seeing. This book will be lyrical, I don't know when, hopefully it can be released someday so that our children and grandchildren can see it</h2>
+                            <label class="next-btn" for="c40"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="book">
+                <input type="checkbox" id="c41">
+                <input type="checkbox" id="c42">
+                <input type="checkbox" id="c43">
+                <input type="checkbox" id="c44">
+                <input type="checkbox" id="c45">
+                <input type="checkbox" id="c46">
+                <input type="checkbox" id="c47">
+                <input type="checkbox" id="c48">
+                <input type="checkbox" id="c49">
+                <input type="checkbox" id="c50">
+                <input type="checkbox" id="c51">
+                <input type="checkbox" id="c52">
+                <input type="checkbox" id="c53">
+                <input type="checkbox" id="c54">
+                <input type="checkbox" id="c55">
+                <input type="checkbox" id="c56">
+                <input type="checkbox" id="c57">
+                <input type="checkbox" id="c58">
+                <input type="checkbox" id="c59">
+                <input type="checkbox" id="c60">
+                <input type="checkbox" id="c61">
+                <input type="checkbox" id="c62">
+                <input type="checkbox" id="c63">
+                <input type="checkbox" id="c64">
+                <input type="checkbox" id="c65">
+                <input type="checkbox" id="c66">
+                <input type="checkbox" id="c67">
+                <input type="checkbox" id="c68">
+                <input type="checkbox" id="c69">
+                <input type="checkbox" id="c70">
+                <input type="checkbox" id="c71">
+                <input type="checkbox" id="c72">
+                <input type="checkbox" id="c73">
+                <input type="checkbox" id="c74">
+                <input type="checkbox" id="c75">
+
+                <div class="flip-book">
+                    <div class="flip" id="p41">
+                        <div class="back">
+                            <img src="img2/Acak (1).jpg" alt="">
+                            <label class="back-btn" for="c41">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img/depan1.png" alt="">
+                            <label class="next-btn" for="c41"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p42">
+                        <div class="back">
+                            <img src="img2/Acak (2).jpg" alt="">
+                            <label class="back-btn" for="c42">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img2/Acak (3).jpg" alt="">
+                            <label class="next-btn" for="c42"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p43">
+                        <div class="back">
+                            <video width="300px" height="450px" controls><source src="img2/Acak (1).mp4"></video>
+                            <label class="back-btn" for="c43">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img2/Acak (4).jpg" alt="">
+                            <label class="next-btn" for="c43"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p44">
+                        <div class="back">
+                            <video width="300px" height="450px" controls><source src="img2/Acak (2).mp4"></video>
+                            <label class="back-btn" for="c44">B</label>
+                        </div>
+                        <div class="front">
+                            <video width="300px" height="450px" controls><source src="img2/Acak (4).mp4"></video>
+                            <label class="next-btn" for="c44"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p45">
+                        <div class="back">
+                            <video width="300px" height="450px" controls><source src="img2/Acak (5).mp4"></video>
+                            <label class="back-btn" for="c45">B</label>
+                        </div>
+                        <div class="front">
+                            <video width="300px" height="450px" controls><source src="img2/Acak (3).mp4"></video>
+                            <label class="next-btn" for="c45"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p46">
+                        <div class="back">
+                            <img src="img2/Acak (6).jpg" alt="">
+                            <label class="back-btn" for="c46">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img2/Acak (7).jpg" alt="">
+                            <label class="next-btn" for="c46"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p47">
+                        <div class="back">
+                            <img src="img2/Acak (8).jpg" alt="">
+                            <label class="back-btn" for="c47">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img2/Acak (9).jpg" alt="">
+                            <label class="next-btn" for="c47"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p48">
+                        <div class="back">
+                            <video width="300px" height="450px" controls><source src="img2/Acak (6).mp4"></video>
+                            <label class="back-btn" for="c48">B</label>
+                        </div>
+                        <div class="front">
+                            <video width="300px" height="450px" controls><source src="img2/Acak (7).mp4"></video>
+                            <label class="next-btn" for="c48"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p49">
+                        <div class="back">
+                            <video width="300px" height="450px" controls><source src="img2/Acak (8).mp4"></video>
+                            <label class="back-btn" for="c49">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img2/Acak (10).jpg" alt="">
+                            <label class="next-btn" for="c49"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+
+                    <div class="flip" id="p50">
+                        <div class="back">
+                            <img src="img2/Acak (11).jpg" alt="">
+                            <label class="back-btn" for="c50">B</label>
+                        </div>
+                        <div class="front">
+                            <video width="300px" height="450px" controls><source src="img2/Acak (10).mp4"></video>
+                            <label class="next-btn" for="c50"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p51">
+                        <div class="back">
+                            <img src="img2/Acak (12).jpg" alt="">
+                            <label class="back-btn" for="c51">B</label>
+                        </div>
+                        <div class="front">
+                            <video width="300px" height="450px" controls><source src="img2/Acak (9).mp4"></video>
+                            <label class="next-btn" for="c51"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p52">
+                        <div class="back">
+                            <img src="img2/Acak (13).jpg" alt="">
+                            <label class="back-btn" for="c52">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img2/Acak (14).jpg" alt="">
+                            <label class="next-btn" for="c52"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p53">
+                        <div class="back">
+                            <img src="img2/Acak (15).jpg" alt="">
+                            <label class="back-btn" for="c53">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img2/Acak (16).jpg" alt="">
+                            <label class="next-btn" for="c53"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p54">
+                        <div class="back">
+                            <img src="img2/Acak (17).jpg" alt="">
+                            <label class="back-btn" for="c54">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img2/Buken (1).jpg" alt="">
+                            <label class="next-btn" for="c54"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p55">
+                        <div class="back">
+                            <img src="img2/Acak (18).jpg" alt="">
+                            <label class="back-btn" for="c55">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img2/Acak (19).jpg" alt="">
+                            <label class="next-btn" for="c55"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p56">
+                        <div class="back">
+                            <img src="img2/Buken (2).jpg" alt="">
+                            <label class="back-btn" for="c56">B</label>
+                        </div>
+                        <div class="front">
+                            <video width="300px" height="450px" controls><source src="img2/Acak (11).mp4"></video>
+                            <label class="next-btn" for="c56"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p57">
+                        <div class="back">
+                            <img src="img2/Buken (3).jpg" alt="">
+                            <label class="back-btn" for="c57">B</label>
+                        </div>
+                        <div class="front">
+                            <video width="300px" height="450px" controls><source src="img2/Acak (12).mp4"></video>
+                            <label class="next-btn" for="c57"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p58">
+                        <div class="back">
+                            <img src="img2/Buken (4).jpg" alt="">
+                            <label class="back-btn" for="c58">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img2/Buken (5).jpg" alt="">
+                            <label class="next-btn" for="c58"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p59">
+                        <div class="back">
+                            <video width="300px" height="450px" controls><source src="img2/Before Wisuda (1).mp4"></video>
+                        </div>
+                        <div class="front">
+                            <video width="300px" height="450px" controls><source src="img2/Acak (13).mp4"></video>
+                            <label class="next-btn" for="c59"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p60">
+                        <div class="back">
+                            <img src="img2/Before Wisuda (6).jpg" alt="">
+                            <label class="back-btn" for="c60">B</label>
+                        </div>
+                        <div class="front">
+                            <video width="300px" height="450px" controls><source src="img2/Acak (14).mp4"></video>
+                            <label class="next-btn" for="c60"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p61">
+                        <div class="back">
+                            <img src="img2/Before Wisuda.jpg" alt="">
+                            <label class="back-btn" for="c61">B</label>
+                        </div>
+                        <div class="front">
+                            <video width="300px" height="450px" controls><source src="img2/Acak (15).mp4"></video>
+                            <label class="next-btn" for="c61"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p62">
+                        <div class="back">
+                            <img src="img2/Gj (1).jpg" alt="">
+                            <label class="back-btn" for="c62">B</label>
+                        </div>
+                        <div class="front">
+                            <video width="300px" height="450px" controls><source src="img2/Acak (16).mp4"></video>
+                            <label class="next-btn" for="c62"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p63">
+                        <div class="back">
+                            <img src="img2/Gj (2).jpg" alt="">
+                            <label class="back-btn" for="c63">B</label>
+                        </div>
+                        <div class="front">
+                            <video width="300px" height="450px" controls><source src="img2/Acak (17).mp4"></video>
+                            <label class="next-btn" for="c63"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p64">
+                        <div class="back">
+                            <img src="img2/Gj (3).jpg" alt="">
+                            <label class="back-btn" for="c64">B</label>
+                        </div>
+                        <div class="front">
+                            <video width="300px" height="450px" controls><source src="img2/Acak (18).mp4"></video>
+                            <label class="next-btn" for="c64"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p65">
+                        <div class="back">
+                            <img src="img2/Gj (4).jpg" alt="">
+                            <label class="back-btn" for="c65">B</label>
+                        </div>
+                        <div class="front">
+                            <video width="300px" height="450px" controls><source src="img2/Before Wisuda (2).mp4"></video>
+                            <label class="next-btn" for="c65"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p66">
+                        <div class="back">
+                            <img src="img2/Gj (5).jpg" alt="">
+                            <label class="back-btn" for="c66">B</label>
+                        </div>
+                        <div class="front">
+                            <video width="300px" height="450px" controls><source src="img2/Before Wisuda (3).mp4"></video>
+                            <label class="next-btn" for="c66"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p67">
+                        <div class="back">
+                            <img src="img2/Ulangan (6).jpg" alt="">
+                            <label class="back-btn" for="c67">B</label>
+                        </div>
+                        <div class="front">
+                            <video width="300px" height="450px" controls><source src="img2/Before Wisuda (4).mp4"></video>
+                            <label class="next-btn" for="c67"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p68">
+                        <div class="back">
+                            <img src="img2/Ulangan (4).jpg" alt="">
+                            <label class="back-btn" for="c68">B</label>
+                        </div>
+                        <div class="front">
+                            <video width="300px" height="450px" controls><source src="img2/Before Wisuda (5).mp4"></video>
+                            <label class="next-btn" for="c68"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p69">
+                        <div class="back">
+                            <img src="img2/Akhir (3).jpg" alt="">
+                            <label class="back-btn" for="c69">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img2/Akhir (1).jpg" alt="">
+                            <label class="next-btn" for="c69"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p70">
+                        <div class="back">
+                            <img src="img2/Akhir (5).jpg" alt="">
+                            <label class="back-btn" for="c70">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img2/Akhir (7).jpg" alt="">
+                            <label class="next-btn" for="c70"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p71">
+                        <div class="back">
+                            <img src="img2/Akhir (8).jpg" alt="">
+                            <label class="back-btn" for="c71">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img2/Akhir (9).jpg" alt="">
+                            <label class="next-btn" for="c71"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p72">
+                        <div class="back">
+                            <img src="img2/Akhir (10).jpg" alt="">
+                            <label class="back-btn" for="c72">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img2/Akhir (12).jpg" alt="">
+                            <label class="next-btn" for="c72"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p73">
+                        <div class="back">
+                            <img src="img2/Akhir (13).jpg" alt="">
+                            <label class="back-btn" for="c73">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img2/Akhir (14).jpg" alt="">
+                            <label class="next-btn" for="c73"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p74">
+                        <div class="back">
+                            <img src="img2/Akhir (16).jpg" alt="">
+                            <label class="back-btn" for="c74">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img2/Akhir (17).jpg" alt="">
+                            <label class="next-btn" for="c74"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="flip" id="p75">
+                        <div class="back">
+                            <img src="img/b3.png" alt="">
+                            <label class="back-btn" for="c75">B</label>
+                        </div>
+                        <div class="front">
+                            <img src="img2/Akhir (19).jpg" alt="">
+                            <label class="next-btn" for="c75"><i class="fa-solid fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+<script src="dist/sweetalert2.all.min.js"></script>
+</html>
